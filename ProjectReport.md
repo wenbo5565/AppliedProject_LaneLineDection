@@ -10,11 +10,11 @@ vision techniques to detect the traffic lane lines given input images. The speci
 
 The sample input image is:
 
-<img src="./ExampleImage/solidWhiteRight.jpg" width="300">
+<img src="./ExampleImage/solidWhiteRight.jpg" width="400">
 
 The sample output image is:
 
-<img src="./ExampleImage/solidWhiteRight-output.jpg" width="300">
+<img src="./ExampleImage/solidWhiteRight-output.jpg" width="400">
 
 ### Reflection
 
