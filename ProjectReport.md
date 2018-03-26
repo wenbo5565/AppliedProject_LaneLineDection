@@ -67,6 +67,9 @@ In order to do so, I design and implement the following steps in the draw_lines(
 
 As in the real-world application (self-driving car on road) the pipiline has to be able to detect lanes in real time, I also experiment the pipeline on several short clips. As videos are nothing but sequence of images, I just need to embed pipeline above into each frame in a video. Here I attach a sample video and its output video for demonstration.
 
+Input video
+
+![inputvideo]("./ExampleImage/InputVideo.gif)
 
 
 
