@@ -49,9 +49,11 @@ Output image by merging input image and detected lanes.
 
 <img src="./ExampleImage/output.png" width="450">
 
+### 2. Key Design and Implementation in the Pipeline
+
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
+
 
 
 ### 2. Identify potential shortcomings with your current pipeline
