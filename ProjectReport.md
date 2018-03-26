@@ -9,8 +9,9 @@ vision techniques to detect the traffic lane lines given input images. The speci
 * Leverage the pipeline to detect lane lines in videos
 
 The sample input image is:
-![input image][./ExampleImage/solidWhiteRight.jpg]
+<img src="https://github.com/wenbo5565/AppliedProject_LaneLineDection/blob/master/ExampleImage/solidWhiteRight.jpg" width="300">
 
+The sample output image is:
 ---
 
 ### Reflection
