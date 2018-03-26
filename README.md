@@ -9,7 +9,7 @@ This is the first project in the Computer Vision section of Udacity's Self-Drivi
 
 Sample input and output are shown below for demonstration.
 
-          Input Video                                                      Output Video
+              Input Video                                                     Output Video
     
 <img src="./ExampleImage/inputvideo.gif" width="400">    <img src="./ExampleImage/outputvideo.gif" width="400">
 
