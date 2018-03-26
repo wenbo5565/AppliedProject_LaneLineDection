@@ -11,7 +11,7 @@ vision techniques to detect the traffic lane lines given input images. The speci
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
+[image1]: ./ExampleImage/solidWhiteRight.jpg 
 
 The sample input image is:
 ![input image][image1]
@@ -29,8 +29,6 @@ First, I converted the images to grayscale, then I ....
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
 If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
-![alt text][image1]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
