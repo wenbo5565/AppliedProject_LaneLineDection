@@ -9,10 +9,9 @@ This is the first project in the Computer Vision section of Udacity's Self-Drivi
 
 Sample input and output are shown below for demonstration.
 
-Input Video     |     Output Video
-
-:--------------:|:----------------------:
-<img src="./ExampleImage/inputvideo.gif" width="450"> | <img src="./ExampleImage/outputvideo.gif" width="450">
+Input Video                                           |                       Output Video
+                                                      |
+<img src="./ExampleImage/inputvideo.gif" width="250"> | <img src="./ExampleImage/outputvideo.gif" width="250">
 
 
 The techniques used in this project include Canny Edge Detector, Hough Transformation and Weighted Regression etc.
