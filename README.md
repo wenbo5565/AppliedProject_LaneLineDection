@@ -11,5 +11,5 @@ The details of the project can be found at the Project Report and Python Code be
 
 ### Project File
 
-* Project Report [https://github.com/wenbo5565/AppliedProject_LaneLineDection/blob/master/ProjectReport.md]
-* Project Python Code [https://github.com/wenbo5565/AppliedProject_LaneLineDection/blob/master/LaneDectionMain.py]
+* [Project Report](https://github.com/wenbo5565/AppliedProject_LaneLineDection/blob/master/ProjectReport.md)
+* [Project Python Code](https://github.com/wenbo5565/AppliedProject_LaneLineDection/blob/master/LaneDectionMain.py)
