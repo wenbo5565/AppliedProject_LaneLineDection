@@ -51,7 +51,17 @@ Output image by merging input image and detected lanes.
 
 ### 2. Key Design and Implementation in the Pipeline
 
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
+Among the 5 major steps in the pipelines above, the first 4 steps are standard with a little effort on parameters tuning. The key in the pipeline is the 5th step where I have to detect a single left and right lanes among all the lanes found from Hough transformation.
+
+In order to do so, I design and implement the following steps in the draw_lines() function
+
+* Assign lines and their associated points (results from Hough transformation) to left-lane set or right-lane set. If a line has a negative slope, it will be assigned to left-lane set. Otherwise it would be assign to right-lane set.
+* Fit a weighted regression line for points in left-lane set and points in right-lane set respectively.
+* The reason I use weighted regression here is because ordinary regression is not robust in a sense that the detected lane can be wrong due to some "noisy" lines from Hough transformation. And I find weighted regression can solve this problem by assigning heavy weights to points on the bottom left (left-lane) or bottom right (right-lane).
+
+<img src="./ExampleImage/YellowEdge1.jpg" width="450">
+
+* The weights in regression is determined by the point's x coordinate. A point in left-lane set has a larger weight if its x value is small. A point in right-lane set has a larger weight if its x value is large. The idea is giving more weights for points 
 
 
 
