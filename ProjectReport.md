@@ -20,7 +20,7 @@ The sample output image is:
 
 ### 1. Pipeline to Detect Traffic Lane Lines
 
-Original image
+Input image
 
 <img src="./ExampleImage/original.png" width="450">
 
@@ -36,8 +36,18 @@ My pipeline consists of 5 steps.
 <img src="./ExampleImage/edge.png" width="450">
 
 * Remove edges out of defined interest of areas
-* Apply Hough transformation to detect lines in images
-* Apply weighted regression to detect/draw left and right lane lines
+
+<img src="./ExampleImage/areaofinterest.png" width="450">
+
+* Apply Hough transformation to detect lines in images (output endpoints of detected lines)
+
+* Apply weighted regression to fit left and right lane lines
+
+<img src="./ExampleImage/leftrightlane.png" width="450">
+
+Output image by merging input image and detected lanes.
+
+<img src="./ExampleImage/output.png" width="450">
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
