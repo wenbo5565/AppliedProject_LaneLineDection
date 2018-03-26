@@ -16,13 +16,17 @@ The sample output image is:
 
 <img src="./ExampleImage/solidWhiteRight-output.jpg" width="400">
 
-### Reflection
+## Project Details
 
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+### 1. Pipeline to Detect Traffic Lane Lines
 
 My pipeline consisted of 5 steps. 
 
-First, I converted the images to grayscale, then I .... 
+* Convert RGB image to grayscale 
+* Detect edges in images by Canny edge dector
+* Remove edges out of defined interest of areas
+* Apply Hough transformation to detect lines in images
+* Apply weighted regression to detect/draw left and right lane lines
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
