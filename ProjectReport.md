@@ -32,6 +32,9 @@ My pipeline consists of 5 steps.
 <img src="./ExampleImage/gray.png" width="400">
 
 * Detect edges in images by Canny edge dector
+
+<img src="./ExampleImage/edge.png" width="500">
+
 * Remove edges out of defined interest of areas
 * Apply Hough transformation to detect lines in images
 * Apply weighted regression to detect/draw left and right lane lines
