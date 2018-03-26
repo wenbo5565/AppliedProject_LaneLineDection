@@ -69,7 +69,7 @@ As in the real-world application (self-driving car on road) the pipiline has to 
 
 Input video
 
-![inputvideo]("./ExampleImage/inputvideo.gif")
+![inputvideo]("https://github.com/wenbo5565/AppliedProject_LaneLineDection/blob/master/ExampleImage/inputvideo.gif")
 
 
 
