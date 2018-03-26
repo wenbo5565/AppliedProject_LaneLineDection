@@ -67,13 +67,17 @@ In order to do so, I design and implement the following steps in the draw_lines(
 
 As in the real-world application (self-driving car on road) the pipiline has to be able to detect lanes in real time, I also experiment the pipeline on several short clips. As videos are nothing but sequence of images, I just need to embed pipeline above into each frame in a video. Here I attach a sample video and its output video for demonstration.
 
-Input video
+Input Video
 
-<img src="https://github.com/wenbo5565/AppliedProject_LaneLineDection/blob/master/ExampleImage/inputvideo.gif">
+<img src="./ExampleImage/inputvideo.gif" width="450">
+
+Output Video
+
+<img src="./ExampleImage/outputvideo.gif" width="450">
 
 
 
-### 2. Identify potential shortcomings with your current pipeline
+## Potential shortcomings with your current pipeline
 
 
 One potential shortcoming would be what would happen when ... 
@@ -81,7 +85,7 @@ One potential shortcoming would be what would happen when ...
 Another shortcoming could be ...
 
 
-### 3. Suggest possible improvements to your pipeline
+## 3. Suggest possible improvements to your pipeline
 
 A possible improvement would be to ...
 
