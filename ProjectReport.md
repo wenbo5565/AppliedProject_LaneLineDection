@@ -59,7 +59,7 @@ In order to do so, I design and implement the following steps in the draw_lines(
 * Fit a weighted regression line for points in left-lane set and points in right-lane set respectively.
 * The reason I use weighted regression here is because ordinary regression is not robust in a sense that the detected lane can be wrong due to some "noisy" lines from Hough transformation. And I find weighted regression can solve this problem by assigning heavy weights to points on the bottom left (left-lane) or bottom right (right-lane).
 
-<img src="./ExampleImage/YellowEdge1.JPG">
+<img src="./ExampleImage/YellowEdge1.JPG" width="400">
 
 * The weights in regression is determined by the point's x coordinate. A point in left-lane set has a larger weight if its x value is small. A point in right-lane set has a larger weight if its x value is large. The idea is giving more weights for points 
 
