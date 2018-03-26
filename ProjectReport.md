@@ -23,6 +23,9 @@ The sample output image is:
 My pipeline consists of 5 steps. 
 
 * Convert RGB image to grayscale 
+
+<img src="./ExampleImage/original.png">
+
 * Detect edges in images by Canny edge dector
 * Remove edges out of defined interest of areas
 * Apply Hough transformation to detect lines in images
