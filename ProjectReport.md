@@ -13,6 +13,9 @@ vision techniques to detect the traffic lane lines given input images. The speci
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
 
+The sample input image is:
+![input image][image1]
+
 ---
 
 ### Reflection
