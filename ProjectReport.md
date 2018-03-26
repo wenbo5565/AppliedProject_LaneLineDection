@@ -8,13 +8,8 @@ vision techniques to detect the traffic lane lines given input images. The speci
 * Build a pipeline in Python to detect lane lines in images.
 * Leverage the pipeline to detect lane lines in videos
 
-
-[//]: # (Image References)
-
-[image1]: ./ExampleImage/solidWhiteRight.jpg 
-
 The sample input image is:
-![input image][image1]
+![input image][./ExampleImage/solidWhiteRight.jpg]
 
 ---
 
