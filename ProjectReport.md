@@ -22,18 +22,18 @@ The sample output image is:
 
 Original image
 
-<img src="./ExampleImage/original.png" width="400">
+<img src="./ExampleImage/original.png" width="450">
 
 
 My pipeline consists of 5 steps. 
 
 * Convert RGB image to grayscale 
 
-<img src="./ExampleImage/gray.png" width="400">
+<img src="./ExampleImage/gray.png" width="450">
 
 * Detect edges in images by Canny edge dector
 
-<img src="./ExampleImage/edge.png" width="500">
+<img src="./ExampleImage/edge.png" width="450">
 
 * Remove edges out of defined interest of areas
 * Apply Hough transformation to detect lines in images
