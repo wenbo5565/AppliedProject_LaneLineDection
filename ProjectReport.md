@@ -20,7 +20,7 @@ The sample output image is:
 
 ### 1. Pipeline to Detect Traffic Lane Lines
 
-My pipeline consisted of 5 steps. 
+My pipeline consists of 5 steps. 
 
 * Convert RGB image to grayscale 
 * Detect edges in images by Canny edge dector
