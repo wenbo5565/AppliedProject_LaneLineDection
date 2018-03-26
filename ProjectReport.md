@@ -63,6 +63,10 @@ In order to do so, I design and implement the following steps in the draw_lines(
 
 * The weights in regression is determined by the point's x coordinate. A point in left-lane set has a larger weight if its x value is small. A point in right-lane set has a larger weight if its x value is large. The idea is giving more weights for points 
 
+### 3. Processing Videos/Clips
+
+As in the real-world application (self-driving car on road) the pipiline has to be able to detect lanes in real time, I also experiment the pipeline on several short clips. As videos are nothing but sequence of images, I just need to embed pipeline above into each frame in a video. Here I attach a sample video and its output video for demonstration.
+
 
 
 
