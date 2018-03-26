@@ -20,11 +20,16 @@ The sample output image is:
 
 ### 1. Pipeline to Detect Traffic Lane Lines
 
+Original image
+
+<img src="./ExampleImage/original.png" width="400">
+
+
 My pipeline consists of 5 steps. 
 
 * Convert RGB image to grayscale 
 
-<img src="./ExampleImage/original.png">
+<img src="./ExampleImage/gray.png" width="400">
 
 * Detect edges in images by Canny edge dector
 * Remove edges out of defined interest of areas
