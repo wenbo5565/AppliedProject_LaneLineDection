@@ -1,4 +1,4 @@
-# Applied Project in Computer Vision - Traffic Lane Lines Detection
+## Applied Project in Computer Vision - Traffic Lane Lines Detection
 
 ### Overview
 
