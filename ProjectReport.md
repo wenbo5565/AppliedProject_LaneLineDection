@@ -14,7 +14,7 @@ The sample input image is:
 
 The sample output image is:
 
-<img src="./ExampleImage/solidWhiteRight-ouput.jpg" width="300">
+<img src="./ExampleImage/solidWhiteRight-output.jpg" width="300">
 
 ### Reflection
 
