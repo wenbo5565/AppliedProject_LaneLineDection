@@ -22,3 +22,4 @@ The details of the project can be found at the Project Report and Python Code be
 
 * [Project Report](https://github.com/wenbo5565/AppliedProject_LaneLineDection/blob/master/ProjectReport.md)
 * [Project Python Code](https://github.com/wenbo5565/AppliedProject_LaneLineDection/blob/master/LaneDectionMain.py)
+* [Project IPython Notebook](https://github.com/wenbo5565/AppliedProject_LaneLineDection/blob/master/lane_detector_project1.ipynb)
