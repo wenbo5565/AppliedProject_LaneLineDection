@@ -61,7 +61,7 @@ In order to do so, I design and implement the following steps in the draw_lines(
 
   <img src="./ExampleImage/YellowEdge1.JPG" width="450">
 
-* The weights in regression is determined by the point's x coordinate. A point in left-lane set has a larger weight if its x value is small. A point in right-lane set has a larger weight if its x value is large. The idea is giving more weights for points 
+* The weights in regression is determined by the point's x coordinate. A point in left-lane set has a larger weight if its x value is small. A point in right-lane set has a larger weight if its x value is large. The idea is giving more weights for points on bottom left or bottom right.
 
 ### 3. Processing Videos/Clips
 
