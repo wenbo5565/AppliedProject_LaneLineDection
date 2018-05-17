@@ -31,7 +31,7 @@ My pipeline consists of 5 steps.
 
 <img src="./ExampleImage/gray.png" width="450">
 
-* Detect edges in images by Canny edge dector
+* Detect edges in images by Canny edge detector
 
 <img src="./ExampleImage/edge.png" width="450">
 
