@@ -85,4 +85,4 @@ One potential shortcoming for the current pipeline would be that in the third st
 
 ## 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to replace the step 3 (that is Remove edges out of defined areas of interest) with a more robust procedure to define area of interests, which would be independent of the camera position.
+A possible improvement would be to replace the step 3 (that is Remove edges out of defined areas of interest) with a more robust procedure to define area of interests, which would be independent of the camera's position.
