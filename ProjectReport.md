@@ -80,9 +80,7 @@ Output Video
 ## Potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
+One potential shortcoming for the current pipeline would be that in the third step (Remove edges out of defined areas of interest), the area of interests is hard coded based on the current position of the camera. If the camera would be put into other positions of the car, the defined areas of interest would be invalid so is the detected line.
 
 
 ## 3. Suggest possible improvements to your pipeline
